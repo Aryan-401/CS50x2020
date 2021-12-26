@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+Mono|Noto+Sans+Display">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <script src="javascript.js"></script>
+        <link href="styles.css" rel="stylesheet">
+
+        <title>All About Aryan</title>
+    </head>
+    <body>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="./index.html">Me!</a>
+          <a href="./portfolio.html" style="cursor: default;">Portfolio</a>
+          <a href="javascript:void(0)">Contact Me</a>
+          <a href="photo.html">My Photography Works</a>
+        </div>
+
+        <!-- Use any element to open the sidenav -->
+        <div style="background-color:#33475b">
+            <span onclick="openNav()"><img class='menu' src="./images/outlineMenu.png" alt='Logo'>|<img class='menu' src="./images/aryanspage.png" alt='Menu' height= 50 width= auto></span>
+        </div>
+        <div class = "main">
+            <h1>
+                <p class="typewrite" data-period="1000" data-type='[ "I literally am free 24/7", "Human contact kinda sucks", "Shoot me a DM at @aryan_401"]'>
+                    <span class="wrap"></span>
+                </p>
+            </h1>
+        </div>
+
+         <div class="container">
+              <form onsubmit="https://ide-fcfd32034e274b74ad5b4638c27d36c8-8080.cs50.ws/contact.html;">
+
+                    <label for="fname">First Name</label>
+                    <input autocomplete="off", autofocus, type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input autocomplete="off", type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="subject">Subject</label>
+                    <textarea autocomplete="off", id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+
+              </form>
+</div>
+
+
+        <footer>
+            <div class='foot'>
+                <h4 style="padding-left:10px;padding-top:10px">Site Map</h4>
+                <table cellspacing=20px cellpadding=5px>
+                    <tr>
+                        <td><a href="./index.html" id='footerlink'>Me!</a></td>
+                        <td><a href="./portfolio.html" id='footerlink'>Portfolio</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="./contact.html" id='footerlink'>Contact Me</a></td>
+                        <td><a href="./photo.html" id='footerlink'>My Photography Archive</a></td>
+                    </tr>
+                    <img src="./images/christmas.png" align=right height = 50 width = auto class='imagePlacement'>
+                </table>
+                <h6 align=center> &#169; Copyright 2021. All Rights Reserved. </h6>
+            </div>
+        </footer>
+    </body>
+</html>

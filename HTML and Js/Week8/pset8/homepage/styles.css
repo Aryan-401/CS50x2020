@@ -1,0 +1,147 @@
+.blog
+{
+    padding-left:10px;
+    padding-top:10px;
+    font-size:15px;
+    color:black;
+    font-family: "Noto Sans Display";
+}
+
+
+.main {
+  background-color:#ce3635;
+  text-align: center;
+  color:#fff;
+  padding:5em;
+}
+
+.typewrite
+{
+    color:white;
+    font-family:"Noto Sans Mono", serif;
+
+}
+
+.logo
+{
+    width:50px;
+    height:auto;
+}
+
+.rounded
+{
+  border: 2px solid grey;
+  border-radius: 10px;
+}
+
+h1
+{
+    padding-left:20px;
+    margin-top:20px
+}
+
+.paragraphInput
+{
+    width:90%;
+    margin-left:5%
+}
+
+.imagePlacement
+{
+    margin-right:15px;
+    margin-top:15px
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+code {
+  font-family: Consolas,"courier new";
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+}
+
+
+h3
+{
+    padding-left:5%;
+}
+
+.foot {
+  background-color:#ce3635;
+  color:#fff;
+}
+
+#footerlink
+{
+  color:#ffffff;
+  text-decoration: none;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
